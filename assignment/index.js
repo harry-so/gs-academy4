@@ -190,6 +190,28 @@ $("#reply").on("click", function () {
     // el.children(".left-comment").text(`${n} comments`);
     
 
+    // });
+    // newPost.ref(keynow).on('value', function (data) {
+    //     console.log(data.val());
+    //     // data.val().reply({
+    //     // reply: $("#reply-box").val(),
+    //     //     date: `${year}/${month}/${day} ${hour}:${minute}`
+    //     // })
+
+    //     // コメントを足していく
+    //     comment = data.val().comment_count;
+    //     return comment;
+
+    // });
+
+
+
+    // newPost.ref(keynow).update({
+    //     comment_count: comment
+    // })
+
 });
 
 
+
+// 3. コメント数が増えて記録され、Topicカードにも反映される
